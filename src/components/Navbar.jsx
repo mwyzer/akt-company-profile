@@ -18,8 +18,6 @@ const Navbar = () => {
     { name: "About Us", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Use Cases", href: "#use-cases" },
-    { name: "Team", href: "#team" },
-    { name: "Testimonials", href: "#testimonials" },
   ];
 
   return (
@@ -29,7 +27,7 @@ const Navbar = () => {
           {/* Logo */}
           <div>
             <a href="/">
-              <img src="/fav-icon.png" alt="Logo" className="w-16 h-16" />
+              <img src="/fav-icon.png" alt="Logo" className="w-48 h-48" />
             </a>
           </div>
 
