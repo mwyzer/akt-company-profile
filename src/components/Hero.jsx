@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
         <div className="flex flex-col md:flex-row items-center gap-6">
           {/* Left Side Content */}
-          <div className="md:w-1/2">
+          <div className="md:w-2/3">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
               Enabling Global Connectivity
             </h1>
