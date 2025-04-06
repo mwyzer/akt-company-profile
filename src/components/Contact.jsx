@@ -16,6 +16,60 @@ function Contact() {
             goals.
           </p>
         </div>
+        {/* contact form */}
+        <div className="flex flex-col md:flex-row justify-between bg-tartiary rounded-lg md:p-8 p-4">
+          <div className="w-full md:w-1/2 p-4">
+            <form className="space-y-4">
+              {/*radio input */}
+              <div className="flex flex-col md:flex-row md:space-x-4 items-start justify-start">
+                <label className="flex items-center">
+                  <input
+                    type="radio"
+                    name="contact-type"
+                    className="mr-2"
+                    value="hi"
+                  />
+                  Say Hi
+                </label>
+                <label className="flex items-center mt-2 md:mt-0">
+                  <input
+                    type="radio"
+                    name="contact-type"
+                    className="mr-2"
+                    value="quote"
+                  />
+                  Get a Quote
+                </label>
+              </div>
+              {/*name input */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700">
+                  Name
+                </label>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  className="mt-2 py-2.5 px-4 block w-full rounded-md shadow-sm focus:outline-none focus:ring focus:ring-primary"
+                  placeholder="Enter your name here"
+                />
+              </div>
+              {/*email input */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700">
+                  Email
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  className="mt-2 py-2.5 px-4 block w-full rounded-md shadow-sm focus:outline-none focus:ring focus:ring-primary"
+                  placeholder="Enter your email here"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
   );
