@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import CTA from "./components/CTA";
+import CaseStudies from "./components/CaseStudies";
+import IndustrySolution from "./components/IndustrySolution";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <Services />
       <CTA />
+      <IndustrySolution />
+      <CaseStudies />
     </div>
   );
 }

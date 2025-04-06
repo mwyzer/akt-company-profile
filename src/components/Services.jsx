@@ -11,7 +11,7 @@ const Services = () => {
           <div className="flex-shrink-0 bg-primary text-white py-2 px-16 rounded-md">
             <h2 className="text-2xl font-bold">Services</h2>
           </div>
-          <div>
+          <div className="md:w-2/3">
             <p className="text-secondary md:w-2/3">
               At our digital marketing agency, we offer a range of services to
               help businesses grow and succeed online. These services include:
