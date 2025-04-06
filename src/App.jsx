@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import CTA from "./components/CTA";
 import CaseStudies from "./components/CaseStudies";
 import IndustrySolution from "./components/IndustrySolution";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <CTA />
       <IndustrySolution />
       <CaseStudies />
+      <Contact />
     </div>
   );
 }
