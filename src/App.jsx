@@ -6,7 +6,7 @@ import CTA from "./components/CTA";
 import CaseStudies from "./components/CaseStudies";
 import IndustrySolution from "./components/IndustrySolution";
 import Contact from "./components/Contact";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="font-primary overflow-hidden">
@@ -17,6 +17,7 @@ function App() {
       <IndustrySolution />
       <CaseStudies />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -14,7 +14,7 @@ const CTA = () => {
             help your business grow. Our team is ready to assist you with all
             your digital marketing needs.
           </p>
-          <button className="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary hover:text-black transition-all duration-300">
+          <button className="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-black hover:text-white transition-all duration-300">
             Get your free proposal
           </button>
         </div>

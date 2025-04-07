@@ -14,13 +14,13 @@ const Hero = () => {
               Enabling Global Connectivity
             </h1>
             <p className="text-gray-600 mb-6">
-              We Provide cloud communication industry, PT. AURA KREASI TEKNOLOGI
+              We provide cloud communication industry, PT. AURA KREASI TEKNOLOGI
               core team possesses deep insights into the trends and dynamics of
               international expansion in key markets. We are dedicated to
               delivering high-quality 24/7/365 customer support services to our
               clients
             </p>
-            <button className="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary hover:text-black transition-all duration-300">
+            <button className="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-black hover:text-white transition-all duration-300">
               Book a consultation
             </button>
           </div>
