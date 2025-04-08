@@ -1,6 +1,7 @@
 import React from "react";
 // import footerLogo from "../assets/footer-logo.png";
 import footerLogo1 from "../assets/footer-logo-small.png";
+import { FaFacebookF, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -12,13 +13,12 @@ const Footer = () => {
           <div>
             <img src={footerLogo1} alt="AKT Logo" className="w-36 h-auto" />
           </div>
-
           {/* menu items */}
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8">
             <a href="#about" className="text-white hover:text-gray-400">
               Home
             </a>
-            <a href="#services" className="text-white hover:text-gray-400">
+            <a href="" className="text-white hover:text-gray-400">
               Services
             </a>
             <a href="#use-cases" className="text-white hover:text-gray-400">
@@ -29,6 +29,35 @@ const Footer = () => {
               className="text-white hover:text-gray-400"
             >
               Industry Solution
+            </a>
+          </div>
+          {/* social icons */}
+          <div className="flex items-center space-x-4">
+            {/* Facebook */}
+            <a
+              href="#"
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white/20 transition"
+              aria-label="Facebook"
+            >
+              <FaFacebookF size={16} />
+            </a>
+
+            {/* Twitter */}
+            <a
+              href="#"
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white/20 transition"
+              aria-label="Twitter"
+            >
+              <FaTwitter size={16} />
+            </a>
+
+            {/* LinkedIn */}
+            <a
+              href="#"
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white/20 transition"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin size={16} />
             </a>
           </div>
         </div>

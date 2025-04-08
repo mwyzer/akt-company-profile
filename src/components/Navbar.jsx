@@ -17,7 +17,7 @@ const Navbar = () => {
   const menuItems = [
     { name: "About Us", href: "#about" },
     { name: "Services", href: "#services" },
-    { name: "Use Cases", href: "#use-cases" },
+    { name: "Use Cases", href: "#case-studies" },
     { name: "Industry Solutions", href: "#industry-solutions" },
   ];
 
