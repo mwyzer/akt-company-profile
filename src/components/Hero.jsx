@@ -2,6 +2,8 @@ import React from "react";
 
 import bannerImg from "../assets/banner.png";
 import LogoCarousel from "./LogoCarousel";
+import { motion } from "framer-motion";
+import variants from "../utils/variants";
 
 const Hero = () => {
   return (
@@ -10,29 +12,53 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center gap-6">
           {/* Left Side Content */}
           <div className="md:w-2/3">
-            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+            <motion.h1
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ amount: 0.1 }}
+              variants={variants("bottom", 0.2)}
+              className="text-4xl md:text-5xl font-bold text-primary mb-4"
+            >
               Enabling Global Connectivity
-            </h1>
-            <p className="text-gray-600 mb-6">
+            </motion.h1>
+            <motion.p
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ amount: 0.1 }}
+              variants={variants("bottom", 0.5)}
+              className="text-gray-600 mb-6"
+            >
               We provide cloud communication industry, PT. AURA KREASI TEKNOLOGI
               core team possesses deep insights into the trends and dynamics of
               international expansion in key markets. We are dedicated to
               delivering high-quality 24/7/365 customer support services to our
               clients
-            </p>
-            <button className="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-black hover:text-white transition-all duration-300">
+            </motion.p>
+            {/* <motion.button
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ amount: 0.1 }}
+              variants={variants("bottom", 0.6)}
+              className="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-black hover:text-white transition-all duration-300"
+            >
               Book a consultation
-            </button>
+            </motion.button> */}
           </div>
 
           {/* Right Side Content */}
-          <div className="md:w-1/2 order:first md:order-last">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ amount: 0.1 }}
+            variants={variants("bottom", 0.2)}
+            className="md:w-1/2 order:first md:order-last"
+          >
             <img
               src={bannerImg}
               alt="Banner"
               className="w-full h-auto rounded-md"
             />
-          </div>
+          </motion.div>
         </div>
         <LogoCarousel />
       </div>

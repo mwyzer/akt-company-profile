@@ -1,34 +1,68 @@
 const caseStudies = [
   {
-    title: "Case Study 1",
+    title: "FinTech",
     description:
-      "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+      "A leading financial technology player in Southeast Asia achieved significant benefits by utilizing PT. AURA KREASI TEKNOLOGI intelligent verification and AI voice products in scenarios such as login registration, identity authentication, machine underwriting, and repayment reminders. This implementation greatly liberated manpower and improved efficiency.",
     benefits: [
-      { icon: "📈", label: "40% increase in organic traffic" },
-      { icon: "🔍", label: "Top 3 ranking for 10+ keywords" },
-      { icon: "⚡", label: "25% faster page load" },
+      {
+        icon: "📈",
+        label: "Reduced operating costs by 30% compared to previous methods",
+      },
+      {
+        icon: "🔍",
+        label: "Improved audit efficiency by 40% compared to previous",
+      },
+      {
+        icon: "⚡",
+        label:
+          "Decrease the loan default rate by 8% compared to previous levels",
+      },
     ],
     link: "#",
   },
   {
-    title: "Case Study 2",
+    title: "E-commerce",
     description:
-      "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
+      "A well-known Chinese mother and baby brand, venturing into overseas markets, partnered with PT. AURA KREASI TEKNOLOGI to achieve impressive sales results in a short period of time. They utilized a combination of SMS, email, and WhatsApp products in scenarios such as payment reminders, delivery notifications, and member marketing",
     benefits: [
-      { icon: "📈", label: "40% increase in organic traffic" },
-      { icon: "🔍", label: "Top 3 ranking for 10+ keywords" },
-      { icon: "⚡", label: "25% faster page load" },
+      {
+        icon: "📈",
+        label:
+          "Reduced  the cost of acquiring potential customer by 40% compared to previous methods.",
+      },
+      {
+        icon: "🔍",
+        label:
+          "Achieved an 18% increase in verification success rate compared to other verification channels",
+      },
+      {
+        icon: "⚡",
+        label:
+          "Experienced a 15% year-on-year increase in sales conversion rate in the first month of collaboration",
+      },
     ],
     link: "#",
   },
   {
-    title: "Case Study 3",
+    title: "Games",
     description:
-      "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
+      "After implementing PT. AURA KREASI TEKNOLOGI global intelligent verification product, a game company venturing into the Indonesian market witnessed a significant improvement in registration success rates. Additionally, integrating AI voice products in membership operations, event promotions, and user reactivation scenarios resulted in impressive performance, effectively enhancing player retention and activity levels.",
     benefits: [
-      { icon: "📈", label: "40% increase in organic traffic" },
-      { icon: "🔍", label: "Top 3 ranking for 10+ keywords" },
-      { icon: "⚡", label: "25% faster page load" },
+      {
+        icon: "📈",
+        label:
+          "Achieved a 60% cost reduction compared to manual calling methods",
+      },
+      {
+        icon: "🔍",
+        label:
+          "Overall, experienced a 25% increase in lead conversion compared to previous operational methods",
+      },
+      {
+        icon: "⚡",
+        label:
+          "Achieved an overall 14% increase in registration success rates compared to other verification channels",
+      },
     ],
     link: "#",
   },
