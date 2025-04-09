@@ -9,54 +9,108 @@ import AnalyticsImage from "../assets/services/analytics.png";
 
 export const servicesData = [
   {
-    title: "SEO Optimization",
+    title: "Notification SMS",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem asdfasdfasdfasdfasfdasdfasdf asdfadsfasdfasdfasdfasdfasdf asdf sdf asdfad fasdf asd fasdfasdfas fasdfasdfasf asd",
+      "Send timely alerts and reminders to your customers via SMS for important updates, transactions, or activities.",
     image: SeoImage,
-    backgroundColor: "bg-[#F3F3F3]",
+    backgroundColor: "bg-gray-100",
     foregroundColor: "bg-primary",
     textColor: "text-black",
   },
   {
-    title: "PPC Advertising",
+    title: "Verification SMS",
     description:
-      "Boost your online presence with targeted PPC advertising campaigns.",
+      "Ensure user security with one-time passwords (OTPs) and verification codes sent instantly to mobile devices.",
     image: PpcImage,
-    backgroundColor: "bg-primary",
-    foregroundColor: "bg-white",
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
     textColor: "text-blue-900",
   },
   {
-    title: "Social Media Marketing",
+    title: "Marketing SMS",
     description:
-      "Engage your audience and grow your brand on social media platforms.",
+      "Promote your brand, products, or special offers with personalized and high-converting SMS marketing campaigns.",
     image: SocialMediaImage,
-    backgroundColor: "bg-green-100",
-    foregroundColor: "bg-green-500",
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
     textColor: "text-green-900",
   },
   {
-    title: "Content Creation",
+    title: "Two-way SMS",
     description:
-      "Create compelling content that drives engagement and conversions.",
+      "Enable real-time customer interaction through SMS, allowing users to reply and engage with your service.",
     image: ContentCreationImage,
-    backgroundColor: "bg-red-100",
-    foregroundColor: "bg-red-500",
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
     textColor: "text-red-900",
   },
   {
-    title: "Email Marketing",
+    title: "SNA (SMS, Notification, and Authentication)",
     description:
-      "Reach your audience directly with targeted email campaigns and newsletters.",
+      "A bundled solution offering SMS communication, real-time notifications, and secure authentication features.",
     image: EmailMarketingImage,
-    backgroundColor: "bg-purple-100",
-    foregroundColor: "bg-purple-500",
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
     textColor: "text-purple-900",
   },
   {
-    title: "Analytics",
+    title: "Voice Verification Code",
     description:
-      "Track and analyze your website’s performance to make data-driven decisions.",
+      "Deliver voice-based verification codes to users for an added layer of security and accessibility.",
+    image: AnalyticsImage,
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
+    textColor: "text-gray-900",
+  },
+  {
+    title: "Voice Group Call",
+    description:
+      "Connect multiple participants through automated voice conferencing for team communication or announcements.",
+    image: AnalyticsImage,
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
+    textColor: "text-gray-900",
+  },
+  {
+    title: "Cloud PBX",
+    description:
+      "A cloud-based private branch exchange system for managing business phone operations with scalability and flexibility.",
+    image: AnalyticsImage,
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
+    textColor: "text-gray-900",
+  },
+  {
+    title: "AI Voice",
+    description:
+      "Use AI-powered voice technology to deliver personalized, human-like automated responses and services.",
+    image: AnalyticsImage,
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
+    textColor: "text-gray-900",
+  },
+  {
+    title: "SIP Trunk",
+    description:
+      "Establish scalable VoIP connections with SIP trunking to enable cost-effective and reliable voice communications.",
+    image: AnalyticsImage,
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
+    textColor: "text-gray-900",
+  },
+  {
+    title: "Email",
+    description:
+      "Reach customers with standard email communication for updates, inquiries, and customer support.",
+    image: AnalyticsImage,
+    backgroundColor: "bg-gray-100",
+    foregroundColor: "bg-primary",
+    textColor: "text-gray-900",
+  },
+  {
+    title: "Email Automation",
+    description:
+      "Automate email marketing campaigns and workflows to engage customers at scale with personalized content.",
     image: AnalyticsImage,
     backgroundColor: "bg-gray-100",
     foregroundColor: "bg-primary",

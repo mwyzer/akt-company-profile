@@ -20,8 +20,11 @@ const Services = () => {
           </div>
           <div className="md:w-2/3">
             <p className="text-secondary md:w-2/3">
-              At our digital marketing agency, we offer a range of services to
-              help businesses grow and succeed online. These services include:
+              PT. AURA KREASI TEKNOLOGI delivers comprehensive and professional
+              advisory services, supporting clients from pre-sales to
+              after-sales stages. Our dedicated team ensures seamless assistance
+              throughout the entire customer journey. We offer 24/7/365 customer
+              support with a fast-response system to resolve issues efficiently.
             </p>
           </div>
         </motion.div>
